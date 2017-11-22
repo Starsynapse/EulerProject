@@ -1,9 +1,7 @@
 #ifndef HEADER
 #define HEADER
 
-#include <iostream>
-using namespace std;
-
 void problem1();
+void problem2();
 
 #endif HEADER
