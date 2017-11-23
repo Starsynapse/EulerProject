@@ -114,6 +114,7 @@
     <ClCompile Include="Problem1.cpp" />
     <ClCompile Include="Problem2.cpp" />
     <ClCompile Include="Problem3.cpp" />
+    <ClCompile Include="Problem4.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
