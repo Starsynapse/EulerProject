@@ -10,7 +10,7 @@ int main()
 {
 	int choose;
 
-	cout << "Choose number (1-2)" << endl;
+	cout << "Choose number (1-3)" << endl;
 	cin >> choose;
 
 	if (choose == 1)
@@ -23,6 +23,12 @@ int main()
 	{
 		cout << "Selected problem 2." << endl;
 		problem2();
+	}
+
+	if (choose == 3)
+	{
+		cout << "Selected problem 3." << endl;
+		problem3();
 	}
 
 	system("pause");
