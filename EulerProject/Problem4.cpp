@@ -51,8 +51,8 @@ void problem4()
 
 		else if (first == 1000)//
 		{
-			first = 100;//
 			second++;
+			first = second;//
 		}
 
 		else

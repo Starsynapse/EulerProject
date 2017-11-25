@@ -10,7 +10,7 @@ int main()
 {
 	int choose;
 
-	cout << "Choose number (1-4)" << endl;
+	cout << "Choose number (1-5)" << endl;
 	cin >> choose;
 
 	if (choose == 1)
@@ -35,6 +35,12 @@ int main()
 	{
 		cout << "Problem 4" << endl;
 		problem4();
+	}
+
+	else if (choose == 5)
+	{
+		cout << "Problem 5" << endl;
+		problem5();
 	}
 
 	system("pause");
